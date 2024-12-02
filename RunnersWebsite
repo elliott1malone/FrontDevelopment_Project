@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Runners World</title>
+    <style type="text/css">
+        /* General Styles */
+        div {
+            background-color: antiquewhite;
+        }
+        /* Menu Styles */
+        #menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            text-decoration: none;
+            flex-wrap: nowrap;
+            align-content: center;
+            text-align: center;
+        }
+        #menu li {
+            display: inline-block;
+            margin-right: 30px;
+        }
+        #menu a {
+            text-decoration: none;
+            color: #000000;
+        }
+        #menu a:hover {
+            color: #000000;
+        }
+        /* Header Styles */
+        #header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Table Styles */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-weight: bold;
+            margin: 10px;
+        }
+        /* Advice Styles */
+div {
+background-color: antiquewhite;
+display: inline-flex;
+flex-wrap: nowrap;
+align-items: flex-end;
+justify-content: center;
+text-align: center;
+}
+#footer {
+background-color: #f0f0f0;
+padding: 20px;
+text-align: center;
+display: table-footer-group;
+flex: auto;
+table-layout: fixed;
+}
+        .advice {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .advice h2 {
+            color: #00698f;
+        }
+        /* Health Tips Styles */
+        .health_tips {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .health_tips h3 {
+            color: #00698f;
+        }
+        /* Purpose Styles */
+        .purpose {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .purpose h2 {
+            color: #00698f;
+        }
+        /* Video Styles */
+        .video {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .video video {
+            width: 100%;
+            height: 100%;
+        }
+        /* Upcoming Races Table Styles */
+        #Upcoming_Races_Table {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        /* Footer Styles */
+        #footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <img src="runners-home.png" alt="runners-home">
+        <h1>Runners Home</h1>
+        <!-- Navigation Menu -->
+        <nav class="header_menu">
+            <ul id="menu">
+                <li><a href="Home.html">&#9822;Home</a></li>
+                <li><a href="Resources.html">&#9822;Resources</a>
+                    <ul>
+                        <li><a href="https://www.mapmyrun.com">&#9675;Map My
+                                Run</a>
+                        </li>
+                        <li><a href="https://www.runnersworld.com">&#9675;Runners
+                                World</a></li>
+                        <li><a href="https://strengthrunning.com">&#9675;Strength
+                                Running</a></li>
+                    </ul>
+                </li>
+                <li><a href="Calculator.html">&#9822;Calculator</a></li>
+                <li><a href="Running.html">&#9822;Running Log</a></li>
+                <li><a href="Running.html">&#9822;Running Terms</a></li>
+                <li><a href="Links.html">&#9822;Links</a>
+                    <ul>
+                        <li><a href="https://www.mapmyrun.com/">Map My Run</a>
+                        </li>
+                        <li><a href="https://www.runnersworld.com">Runners
+                                World</a>
+                        </li>
+                        <li><a href="https://strengthrunning.com/">Strength
+                                Running</a></li>
+                    </ul>
+                </li>
+                <li><a href="Running-Advice.html">&#9822;Running Advice</a>
+                    <ul>
+                        <li><a href="running-tips.html">Running Tips</a></li>
+                    </ul>
+                </div>
+<!-- Main Content Section -->
+<div>
+    <p><b>Hello, Stranger!</b></p>
+    <p><b>Welcome to Runners Home</b></p>
+</div>
+<div>
+    <section id="Advice">
+        <h2>Advice</h2>
+        <article class="Best Running Tips">
+            <h3>Best Running Tips</h3>
+            <img src="tips-running.png" alt="tips-running">
+            <p>There are good ways to train and bad ways to train. To get
+                the most
+                out of your runs... <a href="Read-More.html">Read More!</a>
+            </p>
+        </article>
+    </section>
+    <section>
+        <article class="Best Health Tips">
+            <h3>Best Health Tips</h3>
+            <img src="tips-health.png" alt="tips-healthy">
+            <p>In addition to keeping up with your physical training, you
+                must be
+                sure to take care of your general health.... <a
+                    href="Read-More.html">Read More!</a> More advice
+                articles... <a href="More-advice-articles.html">More</a></p>
+        </article>
+    </section>
+</div>
+<div>
+    <section>
+        <article class="Purpose">
+            <h2>Purpose</h2>
+            <ol>
+                <li><a href="the most up-to-date information on running races">the
+                        most up-to-date information on running races</a>
+                </li>
+                <li><a href="the best resources for runners.html">the best
+                        resources
+                        for runners</a></li>
+            </ol>
+        </article>
+    <div class="video">
+        <video src="justin.mp4" controls preload="auto" autoplay loop
+            height="400" width="400"></video>
+</section>
+        </section> 
+</div>
+</div>
+<!-- Upcoming Races Table Section -->
+ <div>
+<div id="Upcoming_Races_Table">
+    <section>
+    <table>
+        <caption>Upcoming Races</caption>
+        <thead>
+            <tr>
+                <th>Race</th>
+                <th>Date</th>
+                <th>Distance</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.atlantatrackclub.org/peachtree">AJC
+                        Peachtree Road Race</a></td>
+                <td>March 15th</td>
+                <td>10k</td>
+                <td>Atlanta, GA</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.boilermaker.com">&#9675;
+                        Boilermaker</a></td>
+                <td>July 11th</td>
+                <td>15k</td>
+                <td>Utica, NY</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nyrr.org/">&#9675; NYC Marathon</a>
+                </td>
+                <td>November 15th</td>
+                <td>26.22 mi</td>
+                <td>New York, NY</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+</div>
+<!-- Footer Section -->
+<footer id="footer">
+    <hr>
+    <p><b>&copy; 2024 Runners Home. All rights reserved.</b></p>
+    <a href="mailto:info@runners-home.com">Send email:
+        info@runners-home.com</a>
+    <img src="facebook-icon.png" alt="facebook-icon">
+    <img src="linkedin-icon.png" alt="linkedin-icon">
+    <img src="twitter-icon.png" alt="twitter-icon">
+</footer>
