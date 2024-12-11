@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Information Migration Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-5">
+        <header class="mb-5">
+            <h1 class="text-3xl font-bold text-gray-800">Insurance Information Migration Tool</h1>
+            <p class="text-gray-600">Securely migrate your insurance data with duplicate checks.</p>
+        </header>
+        
+        <section class="bg-white shadow-md rounded-lg p-5 mb-5">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-3">Migration Settings</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="source" class="block text-gray-700">Source Database:</label>
+                    <input type="text" id="source" class="mt-1 block w-full p-2 border border-gray-300 rounded" placeholder="Enter source database URL">
+                </div>
+                <div class="mb-4">
+                    <label for="destination" class="block text-gray-700">Destination Database:</label>
+                    <input type="text" id="destination" class="mt-1 block w-full p-2 border border-gray-300 rounded" placeholder="Enter destination database URL">
+                </div>
+                <div class="mb-4">
+                    <label for="security" class="block text-gray-700">Security Measures:</label>
+                    <select id="security" class="mt-1 block w-full p-2 border border-gray-300 rounded">
+                        <option value="none">None</option>
+                        <option value="encryption">Encryption</option>
+                        <option value="authentication">Authentication</option>
+                    </select>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Start Migration</button>
+            </form>
+        </section>
+
+        <section class="bg-white shadow-md rounded-lg p-5">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-3">Migration Status</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white">
+                    <thead>
+                        <tr class="w-full bg-gray-200">
+                            <th class="py-2 px-4 border-b">#</th>
+                            <th class="py-2 px-4 border-b">Record ID</th>
+                            <th class="py-2 px-4 border-b">Status</th>
+                            <th class="py-2 px-4 border-b">Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 px-4 border-b">1</td>
+                            <td class="py-2 px-4 border-b">12345</td>
+                            <td class="py-2 px-4 border-b text-green-500">Migrated</td>
+                            <td class="py-2 px-4 border-b">2023-10-01 10:00 AM</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">2</td>
+                            <td class="py-2 px-4 border-b">12346</td>
+                            <td class="py-2 px-4 border-b text-red-500">Duplicate Found</td>
+                            <td class="py-2 px-4 border-b">2023-10-01 10:05 AM</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">3</td>
+                            <td class="py-2 px-4 border-b">12347</td>
+                            <td class="py-2 px-4 border-b text-green-500">Migrated</td>
+                            <td class="py-2 px-4 border-b">2023-10-01 10:10 AM</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border
